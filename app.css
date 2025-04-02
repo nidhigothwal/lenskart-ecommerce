@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+body {
+    font-family: "Quicksand", serif;
+  }  */
+
+.web {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar img {
+    width: 450px;
+}
+
+.container {
+    width: 100%;
+    min-height: 550px;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.slider {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.left-icon,
+.right-icon {
+    font-size: 40px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    top: 40%;
+    background-color: transparent;
+    color: white;
+    width: 0;
+    height: 0;
+}
+
+.left-icon {
+    left: 0;
+}
+
+.right-icon {
+    right: 20px;
+}
+
+.center-text {
+    padding-top: 50px;
+
+}
+
+.trend-style-frame {
+    text-align: center;
+    font-size: 40px;
+}
+
+.short-text {
+    text-align: center;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 40px;
+    /* padding: 40px; */
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    width: 1000px;
+    /* height: 200px; */
+    background-color: white;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.itme-box {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+
+.product {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 15px 12px;
+
+}
+
+.product img {
+    width: 70%;
+    height: auto;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 2px;
+
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.buy-now {
+    background-color: rgb(5, 5, 5);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: #f9f9fc;
+    border: 1px solid #030303;
+    font-weight: bold;
+}
+
+.box1 {
+    width: 100%;
+
+}
+
+.box1 img {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+
+.text2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.box2 {
+    width: 100%;
+    background-color: #000042;
+    height: 280px;
+    color: white;
+    padding-top: 20px;
+}
+
+.box2 p {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 22px;
+}
+
+.box2 h5 {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.box2 h4 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
